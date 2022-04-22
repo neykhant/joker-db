@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #543125;
+  --secondary-color: #4f762f;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --info-color: #C4C4C4;
+  --muted-color: #E5E5E5;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #000 !important;
+  text-decoration: none;
+}
+
+/* label style override */
+.ant-form-item-required {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color);
+  padding: 4px !important;
+  margin-top: 4px !important;
+  margin-right: 4px !important;
+  border-radius: 10px;
+}
+
+/* menu style override */
+.ant-tooltip-inner a{
+  color: var(--white-color) !important;
+}
+
+@media print {
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+  }
+}

@@ -1,0 +1,62 @@
+export const ADD_ERROR = "ADD_ERROR";
+export const REMOVE_ERROR = "REMOVE_ERROR";
+
+export const SET_LOADING = "SET_LOADING";
+export const SET_SUCCESS = "SET_SUCCESS";
+export const SET_DELETE = "SET_DELETE";
+
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const SHOW_USERS = "SHOW_USERS";
+export const DELETE_USER = "DELETE_USER";
+
+export const SHOW_SHOPS = "SHOW_SHOPS";
+export const SHOW_SHOP = "SHOW_SHOP";
+export const DELETE_SHOP = "DELETE_SHOP";
+
+export const SHOW_MERCHANTS = "SHOW_MERCHANTS";
+export const SHOW_MERCHANT = "SHOW_MERCHANT";
+export const DELETE_MERCHANT = "DELETE_MERCHANT";
+
+export const SHOW_MEMBERS = "SHOW_MEMBERS";
+export const SHOW_MEMBER = "SHOW_MEMBER";
+export const DELETE_MEMBER = "DELETE_MEMBER";
+
+export const SHOW_ITEM_NAMES = "SHOW_ITEM_NAMES";
+export const SHOW_ITEM_NAME = "SHOW_ITEM_NAME";
+export const DELETE_ITEM_NAME = "DELETE_ITEM_NAME";
+
+export const SHOW_ITEMS = "SHOW_ITEMS";
+export const SHOW_ITEM = "SHOW_ITEM";
+export const DELETE_ITEM = "DELETE_ITEM";
+export const SHOW_INVOICE_ITEMS = "SHOW_INVOICE_ITEMS";
+export const SHOW_BEST_ITEMS = "SHOW_BEST_ITEMS";
+
+export const SHOW_STOCKS = "SHOW_STOCKS";
+
+export const SHOW_PURCHASES = "SHOW_PURCHASES";
+export const SHOW_PURCHASE = "SHOW_PURCHASE";
+export const DELETE_PURCHASE = "DELETE_PURCHASE";
+export const SHOW_PURCHASE_REPORT = "SHOW_PURCHASE_REPORT";
+
+export const SHOW_ITEM_TRANSFERS = "SHOW_ITEM_TRANSFERS";
+export const DELETE_ITEM_TRANSFER = "DELETE_ITEM_TRANSFER";
+
+export const SHOW_OWNER_USED_ITEMS = "SHOW_OWNER_USED_ITEMS";
+export const DELETE_OWNER_USED_ITEM = "DELETE_OWNER_USED_ITEM";
+
+export const SHOW_DAMAGE_ITEMS = "SHOW_DAMAGE_ITEMS";
+export const DELETE_DAMAGE_ITEM = "DELETE_DAMAGE_ITEM";
+
+export const SHOW_EXPENSE_NAMES = "SHOW_EXPENSE_NAMES";
+export const SHOW_EXPENSE_NAME = "SHOW_EXPENSE_NAME";
+export const DELETE_EXPENSE_NAME = "DELETE_EXPENSE_NAME";
+
+export const SHOW_EXPENSES = "SHOW_EXPENSES";
+export const SHOW_EXPENSE = "SHOW_EXPENSE";
+export const DELETE_EXPENSE = "DELETE_EXPENSE";
+
+export const SHOW_SALES = "SHOW_SALES";
+export const SHOW_SALE = "SHOW_SALE";
+export const CREATE_SALE = "CREATE_SALE";
+export const DELETE_SALE = "DELETE_SALE";
+export const SALE_REPORT = "SALE_REPORT";

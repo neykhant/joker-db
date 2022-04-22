@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.css";
+
+/* In loayout, sider menu item styles */
+
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-submenu:hover,
+.ant-menu > .ant-menu-item-active,
+.ant-menu > .ant-menu-submenu-active,
+.ant-menu > .ant-menu-item-open,
+.ant-menu > .ant-menu-submenu-open,
+.ant-menu > .ant-menu-item-selected,
+.ant-menu > .ant-menu-submenu-selected {
+  background-color: #F4F5F8 !important;
+}
+
+.ant-menu-horizontal,
+.ant-menu-item::after,
+.ant-menu-submenu::after {
+  border-right: 3px solid #543125 !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #F4F5F8 !important;
+}
